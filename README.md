@@ -28,7 +28,7 @@ HIERARCHICAL_METHOD = 'HDD' meaning: it is a constant, which you could set to an
 
 ## Experiments
 
-Download the data below and run EMD_HDD experiments using the run_test.py script.
+For experiments, download the data below and run EMD_HDD experiments using the run_test.py script.
 After downloading a dataset, put the dataset and the ground truth in the /dataset repository. Then edit lines 52 to 55 in run_test.py accordingly. 
 For your convenience, run_test.py is configured for experiments over the PaviaU dataset.
 
