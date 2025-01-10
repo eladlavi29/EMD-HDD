@@ -32,7 +32,22 @@ Download the data below and run EMD_HDD experiments using the run_test.py script
 After downloading a dataset, put the dataset and the ground truth in the /dataset repository. Then edit lines 52 to 55 in run_test.py accordingly. 
 For your convenience, run_test.py is configured for experiments over the PaviaU dataset.
 
-### PaviaU
+### Datasets
 
-* [Data]([https://github.com/HazyResearch/hyperbolics/tree/master/data/edges](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes)):
+* [Pavia University (PaviaU)](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes) [2]
+* [Pavia Centre](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes) [2]
+* [Botswana](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes) [3]
+* [Kennedy Space Center (KSC)](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes) [1]
 
+### Refrences
+
+[1] D. Lunga, S. Prasad, M. M. Crawford, and O. Ersoy,
+“Manifold-learning-based feature extraction for classification
+of hyperspectral data: A review of advances in manifold learning,” IEEE Signal Processing Magazine, vol. 31, no. 1, pp. 55–
+66, 2014.
+
+[2] X. Huang and L. Zhang, “A comparative study of spatial approaches for urban mapping using hyperspectral rosis images
+over pavia city, northern italy,” International Journal of Remote Sensing, vol. 30, no. 12, p. 3205–3221, 2009.
+
+[3] Y. Li, J. Wang, T. Gao, Q. Sun, L. Zhang, and M. Tang, “Adoption of machine learning in intelligent terrain classification of
+hyperspectral remote sensing images,” Computational Intelligence and Neuroscience, vol. 2020, no. 1, p. 8886932, 2020.
