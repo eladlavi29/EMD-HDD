@@ -25,3 +25,14 @@ METRIC_PIXELS = 'euclidean' meaning: determines the metric that is used to calcu
 USAGE: if you want to change a constant you can either change it in consts.py directly, or in the python script you are running, for example: in run_test.py: consts.METRIC_PIXELS = ‘cosine’.
 
 HIERARCHICAL_METHOD = 'HDD' meaning: it is a constant, which you could set to any value you would like for experiments on based metric for the pipeline which are not HDD.
+
+## Experiments
+
+Download the data below and run EMD_HDD experiments using the run_test.py script.
+After downloading a dataset, put the dataset and the ground truth in the /dataset repository. Then edit lines 52 to 55 in run_test.py accordingly. 
+For your convenience, run_test.py is configured for experiments over the PaviaU dataset.
+
+### PaviaU
+
+* [Data]([https://github.com/HazyResearch/hyperbolics/tree/master/data/edges](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes)):
+
